@@ -8,7 +8,7 @@ body{
   line-height: 1.5;
 }
 
-#header div, #contents{
+#header .inner, #contents{
   margin: 0 auto;
   width: 960px;
 }
@@ -167,33 +167,26 @@ body{
 
 /*ビッグバナーの設定*/
 #c_graphic{
-  margin-left: 10px;
-  width: 650px;
-  background-color: #212c74;
-  border: 2px solid;
-  border-color: #212c74;
-}
-#c_graphic ul{
-  list-style-type: none;
+    display:inline-block;
+    width: 650px;
+    margin-left: 10px;
+    background-color: #212c74;
+    border: 2px solid;
+    border-color: #212c74;
 }
 #big_image{
   margin: 0;
-  padding: 0;
+}
+.bx-prev, .bx-next{
+  display: none;
 }
 #small_image{
-  display: flex;
-  justify-content: flex-start;
-  justify-content: flex-end;
-  justify-content: center;
-  justify-content: space-between;
-  justify-content: space-around;
+  margin-left: 15px;
   padding: 0;
-  margin: 10px 0 10px 0;
 }
 #small_image li{
-  padding: 0;
+  display: inline-block;
 }
-
 /*案内の設定*/
 #c_guide{
   margin-top: 20px;

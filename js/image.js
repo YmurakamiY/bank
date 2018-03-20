@@ -1,4 +1,8 @@
 
 $(document).ready(function(){
-  $('.bxslider').bxSlider();
+//メインスライド用
+  $('#big_image').bxSlider({
+    pagerCustom: '#small_image',  //ページャーをサムネイルにす
+    auto: 'true',
+  });
 });
