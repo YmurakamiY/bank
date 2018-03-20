@@ -8,7 +8,7 @@ body{
   line-height: 1.5;
 }
 
-header div, #contents{
+#header div, #contents{
   margin: 0 auto;
   width: 960px;
 }
@@ -278,17 +278,7 @@ header div, #contents{
   background-image: url('../images/tab04_on.png');
   background-repeat: no-repeat;
 }
-/*
-#news_content{
-  display: none;
-}
-#campaign_content{
-  display: none;
-}
-#notice_content{
-  display: none;
-}
-*/
+
 /*メイン（左側）*/
 #right{
   padding-top: 10px;
@@ -330,7 +320,6 @@ header div, #contents{
   border-color: #212c74;
   text-align: center;
 }
-
 #service h2{
   margin: 0;
   color: #ffffff;
@@ -410,7 +399,7 @@ header div, #contents{
   border-right: 1px solid;
 }
 #f_nav ul li a{
-  color: #00d0d0;
+  color: #00b0b0;
   text-decoration: none;
 }
 #f_nav ul li a:hover{

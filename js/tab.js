@@ -9,16 +9,16 @@ var box = document.getElementById("boxs").getElementsByTagName("div");
 function changeTab(){
   var targetid = this.href.substring(this.href.indexOf('#')+1,this.href.length);
 
-  for( var i=0; i<box.length; i++ ){
-    if( box[i].id != targetid ){
-      box[i].style.display = "none";
+  for( var b=0; b<box.length; b++ ){
+    if( box[b].id != targetid ){
+      box[b].style.display = "none";
     }else{
-      box[i].style.display = "block";
+      box[b].style.display = "block";
     }
   }
 
-  for( var i=0; i<tab.length; i++ ){
-    tab[i].style.zIndex = "0";
+  for( var t=0; t<tab.length; t++ ){
+    tab[t].style.zIndex = "0";
   }
   this.style.zIndex = "10";
 
@@ -26,8 +26,8 @@ function changeTab(){
 }
 
 //クリック時
-for( var i=0; i<tab.length; i++ ){
-  tab[i].onclick = changeTab;
+for( var c=0; c<tab.length; c++ ){
+  tab[c].onclick = changeTab;
 }
 
 tab[0].onclick();
